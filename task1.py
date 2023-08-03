@@ -1,16 +1,9 @@
-# ввести два числа и определить какое из них больше
-first = int(input('first digit '))
-second = int(input('second digit '))
+#Задача No1. Решение в группах
+#За день машина проезжает n километров. Сколько дней нужно, чтобы проехать маршрут длиной m километров? При решении этой задачи нельзя пользоваться условной инструкцией if и циклами.
+#Input:
+#n = 700 m = 750 Output: 2
 
-if first > second:
-    print(f"first = {first} > second = {second}")
+n = int(input("Cколько машина проезжает за день? - "))
+m = int(input("Cколько нужно проехать? - "))
 
-elif first == second:
-    print(f"first = {first} == second = {second}")
-
-if first == second:
-    print(f"first = {first} == second = {second}")
-
-
-else:
-    print(f"first = {first} < second = {second}")
+print(f"Потребуется {-1*(-m//n)} дней")

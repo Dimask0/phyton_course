@@ -1,8 +1,16 @@
-""""Дано натуральное число. Требуется определить, является ли год с данным номером високосным. Если год является високосным, то выведите YES, иначе выведите NO. 
-Напомним, что в соответствии с григорианским календарем, год является високосным, если его номер кратен 4, но не кратен 100, а также если он кратен 400.
-"""
-y = 2016
-if y%4 == 0 and y%100 !=0 or y%400 == 0:
-    print('YES')
+# ввести два числа и определить какое из них больше
+first = int(input('first digit '))
+second = int(input('second digit '))
+
+if first > second:
+    print(f"first = {first} > second = {second}")
+
+elif first == second:
+    print(f"first = {first} == second = {second}")
+
+if first == second:
+    print(f"first = {first} == second = {second}")
+
+
 else:
-    print('NO')
+    print(f"first = {first} < second = {second}")
