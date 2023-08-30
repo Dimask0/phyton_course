@@ -21,3 +21,5 @@ else:
         if A_num[i] == X:
             count += 1
     print(f'Число {X} встречается в списке A {count} раз')
+
+    #print(list_1[count])
