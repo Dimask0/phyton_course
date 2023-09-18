@@ -15,6 +15,6 @@
 
 transfashion = lambda x : x
 values = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29] 
-transformed_values = list(map(trasformation, values))
+transformed_values = list(map(transfashion, values))
 print(values)
 print(transformed_values)

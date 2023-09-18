@@ -34,6 +34,6 @@
 
 list_1 = list(map(int, input("Введите список чисел через пробел:").split))
 filter_list = list(filter(lambda x : 9 < abs(x) <100 , list_1))
-print(sort_list(list_1))
+print(list_1)
 # len(str(abs(int(x))))==2
     
